@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#1e1e1e">
+  <link rel="stylesheet" href="style.css" />
+  <title>Mis Suscripciones</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Mis Suscripciones</h1>
+
+    <form id="subForm">
+      <input type="text" id="name" placeholder="Nombre (ej. Netflix)" required />
+      <input type="number" id="amount" placeholder="Precio mensual (€)" required />
+      <input type="date" id="nextPayment" required />
+      <input type="text" id="category" placeholder="Categoría (ej. Streaming)" />
+      <button type="submit">Añadir</button>
+    </form>
+
+    <h2>Activas</h2>
+    <ul id="subsList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

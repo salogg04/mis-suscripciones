@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background: #007aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007aff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  display: block;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
